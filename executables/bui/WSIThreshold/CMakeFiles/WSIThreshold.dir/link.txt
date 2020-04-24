@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WSIThreshold.dir/WSIThreshold.o  -o WSIThreshold -lwholeslidefilters -lmultiresolutionimageinterface -lBoost::disable_autolinking -lBoost::program_options 

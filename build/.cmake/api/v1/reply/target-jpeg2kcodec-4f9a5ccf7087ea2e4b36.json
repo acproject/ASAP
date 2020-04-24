@@ -1,0 +1,160 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "multiresolutionimageinterface/libjpeg2kcodec.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"multiresolutionimageinterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC   -std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "jpeg2kcodec_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/build/multiresolutionimageinterface"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/build/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/multiresolutionimageinterface"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/openjpeg-2.3"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "jpeg2kcodec::@43e30ab7b55c91f41080",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-rpath,:::::::::::::: /usr/lib/x86_64-linux-gnu/libopenjp2.so.2.3.0 -lm -lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "jpeg2kcodec",
+	"nameOnDisk" : "libjpeg2kcodec.so",
+	"paths" : 
+	{
+		"build" : "multiresolutionimageinterface",
+		"source" : "multiresolutionimageinterface"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/JPEG2000Codec.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/JPEG2000Codec.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

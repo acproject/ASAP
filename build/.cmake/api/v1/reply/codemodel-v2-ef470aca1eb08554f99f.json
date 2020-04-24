@@ -1,0 +1,156 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "multiresolutionimageinterface",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "multiresolutionimageinterface",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "annotation",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "annotation",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "buildtools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "buildtools"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "DIAGPathology",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "annotation::@e4d72e45107a805b2d0d",
+					"jsonFile" : "target-annotation-33472f17b934081f6269.json",
+					"name" : "annotation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "core::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core-a057090599941b0dbeda.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpeg2kcodec::@43e30ab7b55c91f41080",
+					"jsonFile" : "target-jpeg2kcodec-4f9a5ccf7087ea2e4b36.json",
+					"name" : "jpeg2kcodec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multiresolutionimageinterface::@43e30ab7b55c91f41080",
+					"jsonFile" : "target-multiresolutionimageinterface-148dfcd92d7748f22035.json",
+					"name" : "multiresolutionimageinterface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "openslidefileformat::@43e30ab7b55c91f41080",
+					"jsonFile" : "target-openslidefileformat-c30fdc6706b5ea2389dd.json",
+					"name" : "openslidefileformat",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qinhangyu/workspace/tests1/ASAP/build",
+		"source" : "/home/qinhangyu/workspace/tests1/ASAP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

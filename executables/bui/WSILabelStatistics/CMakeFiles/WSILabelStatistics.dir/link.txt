@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WSILabelStatistics.dir/WSILabelStatistics.o  -o WSILabelStatistics -lwholeslidefilters -lmultiresolutionimageinterface -lBoost::disable_autolinking -lBoost::program_options 

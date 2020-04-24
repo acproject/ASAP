@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WSIConnectedComponents.dir/WSIConnectedComponents.o  -o WSIConnectedComponents -lwholeslidefilters -lmultiresolutionimageinterface -lBoost::disable_autolinking -lBoost::program_options 

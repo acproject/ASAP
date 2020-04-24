@@ -1,0 +1,319 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "multiresolutionimageinterface/libmultiresolutionimageinterface.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"multiresolutionimageinterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC   -std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PUGIXML_HEADER_ONLY"
+				},
+				{
+					"define" : "multiresolutionimageinterface_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/build/multiresolutionimageinterface"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qinhangyu/workspace/tests1/ASAP/build/core"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "core::@57760688d1f824db5d9c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "jpeg2kcodec::@43e30ab7b55c91f41080"
+		}
+	],
+	"id" : "multiresolutionimageinterface::@43e30ab7b55c91f41080",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-rpath,/home/qinhangyu/workspace/tests1/ASAP/build/core:/home/qinhangyu/workspace/tests1/ASAP/build/multiresolutionimageinterface:/usr/local/lib: ../core/libcore.so libjpeg2kcodec.so /usr/lib/x86_64-linux-gnu/libtiff.so /usr/local/lib/libboost_thread.so.1.72.0 -lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "multiresolutionimageinterface",
+	"nameOnDisk" : "libmultiresolutionimageinterface.so",
+	"paths" : 
+	{
+		"build" : "multiresolutionimageinterface",
+		"source" : "multiresolutionimageinterface"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/AperioSVSWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/TIFFImage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/MultiResolutionImage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/TIFFImageFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/TileCache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/LIFImage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "multiresolutionimageinterface/LIFImageFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/AperioSVSWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/TIFFImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/TIFFImageFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/MultiResolutionImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/MultiResolutionImageFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/TileCache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/LIFImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "multiresolutionimageinterface/LIFImageFactory.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

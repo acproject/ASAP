@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.15)
 PROJECT(WorklistInterface)
 
 IF (WIN32)
@@ -6,8 +7,12 @@ ELSE()
 	SET(CMAKE_CXX_STANDARD 17)
 ENDIF()
 
-SET(CMAKE_AUTOMOC ON)
 
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+find_package(Qt5 COMPONENTS Core Gui Qml Quick Widgets REQUIRED)
 
 add_compile_definitions(BOOST_ALL_DYN_LINK)
 
@@ -16,8 +21,6 @@ SET(GROUP_DATA
 	worklist/Data/DataTable.cpp
 	worklist/Data/DirectoryDataAcquisition.h
 	worklist/Data/DirectoryDataAcquisition.cpp
-	worklist/Data/DjangoDataAcquisition.h
-	worklist/Data/DjangoDataAcquisition.cpp
 	worklist/Data/FilelistDataAcquisition.h
 	worklist/Data/FilelistDataAcquisition.cpp
 	worklist/Data/SourceLoading.h
@@ -44,13 +47,13 @@ SET(GROUP_GUI
 SET(GROUP_SERIALIZATION
 	worklist/Serialization/INI.h
 	worklist/Serialization/JSON.h
-	worklist/Serialization/Misc.h
-	worklist/worklist/Serialization/INI.cpp
+
+	worklist/Serialization/INI.cpp
 	worklist/Serialization/JSON.cpp
-	worklist/Serialization/Misc.cpp
+
 )
 
-ADD_EXECUTABLE(ASAP
+ADD_EXECUTABLE(WorklistInterface
 	worklist/main.cpp
 	${GROUP_DATA}
 	${GROUP_GUI}

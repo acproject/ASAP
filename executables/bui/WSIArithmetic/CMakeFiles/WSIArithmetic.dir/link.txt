@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WSIArithmetic.dir/WSIArithmetic.o  -o WSIArithmetic -lwholeslidefilters -lmultiresolutionimageinterface -lBoost::disable_autolinking -lBoost::program_options 

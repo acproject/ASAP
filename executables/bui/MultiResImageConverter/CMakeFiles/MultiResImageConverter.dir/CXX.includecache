@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/MultiResImageConverter.cpp
+iostream
+-
+string
+-
+vector
+-
+multiresolutionimageinterface/MultiResolutionImageReader.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/multiresolutionimageinterface/MultiResolutionImageReader.h
+multiresolutionimageinterface/MultiResolutionImage.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/multiresolutionimageinterface/MultiResolutionImage.h
+multiresolutionimageinterface/OpenSlideImage.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/multiresolutionimageinterface/OpenSlideImage.h
+multiresolutionimageinterface/MultiResolutionImageWriter.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/multiresolutionimageinterface/MultiResolutionImageWriter.h
+multiresolutionimageinterface/AperioSVSWriter.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/multiresolutionimageinterface/AperioSVSWriter.h
+core/filetools.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/core/filetools.h
+core/PathologyEnums.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/core/PathologyEnums.h
+core/CmdLineProgressMonitor.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/core/CmdLineProgressMonitor.h
+config/ASAPMacros.h
+/home/qinhangyu/workspace/tests1/ASAP/executables/MultiResImageConverter/config/ASAPMacros.h
+sstream
+-
+boost/program_options.hpp
+-
+

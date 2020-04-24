@@ -1,3 +1,9 @@
+---
+noteId: "a7c97e20860511ea908a57774bd95975"
+tags: []
+
+---
+
 # ASAP - Automated Slide Analysis Platform
 
 ASAP is an open source platform for visualizing, annotating and automatically analyzing whole-slide histopathology images. It consists of several key-components (slide input/output, image processing, viewer) which can be used seperately. It is built on top of several well-developed open source packages like OpenSlide, Qt and OpenCV but also tries to extend them in several meaningful ways.

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/WSIDistanceTransform.dir/WSIDistanceTransform.o  -o WSIDistanceTransform -lwholeslidefilters -lmultiresolutionimageinterface -lBoost::disable_autolinking -lBoost::program_options 
